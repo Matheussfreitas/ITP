@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int ehPar(int num){
+    if (num == 0)
+         printf("true");
+    else
+         printf("false");
+}
+
+int main(){
+    int d, n;
+    scanf ("%d", &d);
+    n = d % 2;
+    d = ehPar(n);
+    
+}
